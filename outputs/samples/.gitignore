@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+
+*.pt
+*.pth
+*.onnx
+
+outputs/**/*.mp4
+outputs/**/*.avi
+outputs/**/*.mov
+outputs/**/*.csv
+outputs/**/*.json
