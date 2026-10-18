@@ -1,11 +1,30 @@
+﻿# Python virtual environments
 .venv/
 venv/
 env/
+
+# Python cache
 __pycache__/
 *.py[cod]
+
+# Environment variables and secrets
 .env
+
+# Large model weights
 *.pt
 *.pth
 *.onnx
-input/
-outputs/
+
+# Generated video files
+outputs/**/*.mp4
+outputs/**/*.avi
+outputs/**/*.mov
+
+# Generated data files
+outputs/**/*.csv
+outputs/**/*.json
+
+# Keep sample images in GitHub
+!outputs/samples/*.jpg
+!outputs/samples/*.jpeg
+!outputs/samples/*.png
